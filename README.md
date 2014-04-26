@@ -4,7 +4,7 @@ Run-analysis
 ####Peer Assessments / Getting and Cleaning Data Project
 
 
-GOAL
+*GOAL*
 
 Provide tidy data from a public dataset that can be used for later analysis
 
