@@ -27,7 +27,7 @@ Since the file is in R, you must have R installed to run the script
 1. download and unzip the raw data (see link above)  
 2. unzip the file in your work directory in R  
 3. put the file run_analysis.R in your work directory  
-4. load it with source("run_analysis.R") - it will take a while due to the dimension of the raw data set  
+4. load run_analysis.R - it will take a while due to the dimension of the raw data set  
 5. get the follow tidy and reshaped data sets:  
 * "_dataMerged_" (10299 rows * 563 cols), where test and train are merged in a single data frame
 * "_dataRestricted_" (10299 rows * 68 cols), where dataMerged are restricted to the mean and standard deviation columns
