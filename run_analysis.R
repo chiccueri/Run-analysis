@@ -13,7 +13,7 @@ colnames(strain)[1]<-"subjectID"
 colnames(xtrain)<-features[,2]
 colnames(ytrain)[1]<-"activityID"
 activity<-factor(ytrain$activityID,levels=activity_labels$idActivity,labels=activity_labels$labelActivity)
-dftrain<-data.frame(strain,activity,xtrain)
+dftrain<-cbind(strain,activity,xtrain)
 
 #create a new TEST data frame (2947*563) adding "subject" and "activity" labels to the existing X_train
 stest<-read.table("getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/subject_test.txt")
@@ -23,7 +23,7 @@ colnames(stest)[1]<-"subjectID"
 colnames(xtest)<-features[,2]
 colnames(ytest)[1]<-"activityID"
 activity<-factor(ytest$activityID,levels=activity_labels$idActivity,labels=activity_labels$labelActivity)
-dftest<-data.frame(stest,activity,xtest)	
+dftest<-cbind(stest,activity,xtest)	
 
 #MERGE training+test data in a single new data set (10299*563)
 dataMerged<-rbind(dftrain,dftest)
