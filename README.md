@@ -19,7 +19,7 @@ Data set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20H
 3. Uses descriptive activity names to name the activities in the data set  
 4. Appropriately labels the data set with descriptive activity names  
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
-**dataTidy.txt**, a data set 180*68 with the average of each variable for each activity and each subject.
+**dataTidy.txt**, the tidy data set 180*68 created as described above.
 
 **HOW TO USE run_analysis.R**  
 If you want to run the script run_analysis.R, you must have R installed with the packages *utils* and *reshape2* and do as follows:  
