@@ -21,7 +21,9 @@ R script called run_analysis.R that does the following:
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject  
 
 **REQUIREMENTS**  
-Since the file is in R, you must have R installed to run the script
+Since the file is in R, you must have R installed to run the script with the follow packages:  
+- utils
+- reshape2
 
 **HOW TO USE**  
 1. download and unzip the raw data (see link above)  
