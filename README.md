@@ -1,8 +1,8 @@
 Run-analysis
 ============
 
-Peer Assessments / Getting and Cleaning Data Project
-----------------------------------------------------
+#Peer Assessments / Getting and Cleaning Data Project
+
 
 GOAL\n
 Provide tidy data from a public dataset that can be used for later analysis
