@@ -22,14 +22,12 @@ Data set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20H
 **dataMerged.txt**, a data set 10299*563 obtained merging the raw X\_train and X\_test which have been added to the fields "subject" and "activity".  
 **dataTidy.txt**, a data set 180*68 with the average of each variable for each activity and each subject.
 
-**REQUIREMENTS**  
-If you want to run the script run_analysis.R, you must have R installed with the packages *utils* and *reshape2*
-
-**HOW TO USE**  
+**HOW TO USE run_analysis.R**  
+If you want to run the script run_analysis.R, you must have R installed with the packages *utils* and *reshape2* and do as follows:  
 1. download and unzip the raw data (see link above)  
 2. unzip the file in your work directory in R  
 3. put the file run_analysis.R in your work directory  
-4. load run_analysis.R - it will take a while due to the dimension of the raw data set  
+4. load run_analysis.R - it will take a while due to the dimension of the raw data sets  
 5. get the follow tidy and reshaped data sets:  
 * "_dataMerged_" (10299 rows * 563 cols), where test and train are merged in a single data frame
 * "_dataRestricted_" (10299 rows * 68 cols), where dataMerged are restricted to the mean and standard deviation columns
