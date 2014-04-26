@@ -35,10 +35,10 @@ HOW TO USE\n
 
 data set
 5. get the follow tidy and reshaped data sets:
-   - "dataMerged" (10299 rows * 563 cols), where test and train are merged in a single data frame
-   - "dataRestricted" (10299 rows * 68 cols), where dataMerged are restricted to the mean and 
+* "dataMerged" (10299 rows * 563 cols), where test and train are merged in a single data frame
+* "dataRestricted" (10299 rows * 68 cols), where dataMerged are restricted to the mean and 
 
 standard deviation for each measurement
-   - "dataTidy" (180 rows * 68 cols), with the average of each variable for each activity and each 
+* "dataTidy" (180 rows * 68 cols), with the average of each variable for each activity and each 
 
 subject 
