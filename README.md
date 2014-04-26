@@ -19,8 +19,8 @@ Data set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20H
 3. Uses descriptive activity names to name the activities in the data set  
 4. Appropriately labels the data set with descriptive activity names  
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
-**dataMerged.txt**, a data set 10299*563 obtained merging the raw X\_train and X\_test which have been added to the fields "subject" and "activity".  
-**dataTidy.txt**, a data set 180*68 with the average of each variable for each activity and each subject.
+**dataTidy.txt**, the tidy data set 180*68 created as described above.  
+**CodeBook.md** provides a detailed description of the variables, data, transformations and work performed to clean up the data.  
 
 **HOW TO USE run_analysis.R**  
 If you want to run the script run_analysis.R, you must have R installed with the packages *utils* and *reshape2* and do as follows:  
@@ -29,6 +29,6 @@ If you want to run the script run_analysis.R, you must have R installed with the
 3. put the file run_analysis.R in your work directory  
 4. load run_analysis.R - it will take a while due to the dimension of the raw data sets  
 5. get the follow tidy and reshaped data sets:  
-* "_dataMerged_" (10299 rows * 563 cols), where test and train are merged in a single data frame
+* "_dataMerged_" (10299 rows * 563 cols), where test and training data sets are merged in a single data frame containing "subject" and "activity" fields as well  
 * "_dataRestricted_" (10299 rows * 68 cols), where dataMerged are restricted to the mean and standard deviation columns
-* "_dataTidy_" (180 rows * 68 cols), with the average of each variable for each activity and each subject 
+* "_dataTidy_" (180 rows * 68 cols), with the average of each variable for each of the 6 activities and each of the 30 subjects 
