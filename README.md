@@ -9,6 +9,7 @@ GOAL
 Provide tidy data from a public dataset that can be used for later analysis
 
 
+
 RAW DATA
 
 Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
@@ -18,6 +19,7 @@ Authors: Reyes-Ortiz, Anguita, Ghio, Oneto, SMARTLAB, DITEN.
 Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 
 Data set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 
 
 OUTPUT
