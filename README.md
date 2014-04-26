@@ -28,6 +28,6 @@ If you want to run the script run_analysis.R, you must have R installed with the
 3. put the file run_analysis.R in your work directory  
 4. load run_analysis.R - it will take a while due to the dimension of the raw data sets  
 5. get the follow tidy and reshaped data sets:  
-* "_dataMerged_" (10299 rows * 563 cols), where test and train are merged in a single data frame
+* "_dataMerged_" (10299 rows * 563 cols), where test and training data sets are merged in a single data frame containing "subject" and "activity" fields as well  
 * "_dataRestricted_" (10299 rows * 68 cols), where dataMerged are restricted to the mean and standard deviation columns
 * "_dataTidy_" (180 rows * 68 cols), with the average of each variable for each of the 6 activities and each of the 30 subjects 
