@@ -23,9 +23,7 @@ Data set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20H
 **dataTidy.txt**, a data set 180*68 with the average of each variable for each activity and each subject.
 
 **REQUIREMENTS**  
-Since the file is in R, you must have R installed to run the script with the follow packages:  
-- utils
-- reshape2
+If you want to use the run_analysis.R, you must have R installed to run the script with the packages *utils* and *reshape2*
 
 **HOW TO USE**  
 1. download and unzip the raw data (see link above)  
