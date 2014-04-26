@@ -30,4 +30,4 @@ If you want to run the script run_analysis.R, you must have R installed with the
 5. get the follow tidy and reshaped data sets:  
 * "_dataMerged_" (10299 rows * 563 cols), where test and train are merged in a single data frame
 * "_dataRestricted_" (10299 rows * 68 cols), where dataMerged are restricted to the mean and standard deviation columns
-* "_dataTidy_" (180 rows * 68 cols), with the average of each variable for each activity and each subject 
+* "_dataTidy_" (180 rows * 68 cols), with the average of each variable for each of the 6 activities and each of the 30 subjects 
