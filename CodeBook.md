@@ -7,7 +7,7 @@ Code Book
 The file dataTidy.txt is a data set with 180 rows and 68 columns summarizing the raw data sets of training and test measurements and containing the average of each variable for each subject and each activity.  
 
 The first column ("subjectID") contains the identifier of the subject who carried out the experiment
-The second column ("activity")  contains the activity measured
+The second column ("activity")  contains the activity measured  
 The other 66 columns contain mean and standard deviation values of the measurements
 
 The 180 rows contain the average value for each of the 30 subjects and each of the 6 activities (so 30*6=180).
