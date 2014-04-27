@@ -28,14 +28,21 @@ The process from raw to tidy data set was the follow:
 
 3. renamed columns in *X_train* and *X_test* fetching the labels from *features.txt*  
  
-4. factorized *y_train* and *y_test*, each by *activity_labels*
+4. factorized *y_train* and *y_test*, each by *activity_labels*  
+
 5. created intermediate data frames *dftrain* as a cbind of *X_train* + subject and activity (both as tidied in point 2)  
+
 6. created intermediate data frames *dftest* as a cbind of *X_test* + subject and activity (both as tidied in point 2)  
+
 7. created **dataMerged**, a new data frame that combine the rows of *dftrain* and those of *dftest* (using rbind)  
+
 8. extracted features regarding mean and standard deviation from *features*  
+
 9. created *dataRestricted* data frame, a subset of *dataMerged* containing only the features as extracted above  
+
 10. created *dataTidy* data frame as a result of melt and dcast of *dataRestricted*  
-11. created *dataTidy()*, a function to write the dataTidy data set in a text file named *dataTidy.txt*
+
+11. created *dataTidy()*, a function to write the dataTidy data set in a text file named *dataTidy.txt*  
 
 
 
