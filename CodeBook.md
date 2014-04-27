@@ -16,7 +16,7 @@ The process from raw to tidy data set was the follow:
 
 1. downloaded and read raw data from the follow files:  
    *features.txt* -> data.frame (561*2) with id and name of each feature measured  
-   *activity_labels.txt* -> data.frame (6*2) with id and label of each activity
+   __activity_labels.txt__ -> data.frame (6*2) with id and label of each activity
    *subject_train.txt* -> data.frame (7352*1) with the id of the subject for each of the 7352 measurements in training  
    *y_train.txt* -> data.frame (7352*1) with the id of the activity for each of the 7352 measurements in training  
    *X_train.txt* -> data.frame (7352*561) with the variables (features), for each of the 7352 measurements in training  
