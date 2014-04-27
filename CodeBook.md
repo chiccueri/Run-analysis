@@ -116,3 +116,4 @@ The following are the column names of dataTidy:
 [66] "fBodyBodyGyroMag-std()"     
 [67] "fBodyBodyGyroJerkMag-mean()"
 [68] "fBodyBodyGyroJerkMag-std()" 
+
