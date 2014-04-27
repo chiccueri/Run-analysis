@@ -42,11 +42,11 @@ The process from raw to tidy data sets was the follow:
 
 10. created **dataTidy** data frame as a result of melt and dcast of *dataRestricted*  
 
-11. created **dataTidy()**, a function to write the dataTidy data set in a text file named **dataTidy.txt**  
+11. created **dataTidy()**, a function to write _dataTidy_ in a text file named **dataTidy.txt**  
 
 
 
-The following are the column names of dataTidy:
+The following are the column names of _dataTidy_:
 
  [1] "subjectID"                  
  [2] "activity"                   
@@ -116,4 +116,5 @@ The following are the column names of dataTidy:
 [66] "fBodyBodyGyroMag-std()"     
 [67] "fBodyBodyGyroJerkMag-mean()"  
 [68] "fBodyBodyGyroJerkMag-std()" 
+
 
