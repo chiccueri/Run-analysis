@@ -24,7 +24,7 @@ This repository provide the following files:
 * **CodeBook.md** provides a detailed description of the variables, data, transformations and work performed to clean up the data.  
 
 **HOW TO USE run_analysis.R**  
-If you want to run the script run_analysis.R, you must have R installed with the packages *utils* and *reshape2* and do as follows:  
+If you want to run the script _run\_analysis.R_, you must have R installed with the packages *utils* and *reshape2* and do as follows:  
 1. download and unzip the raw data (see link above)  
 2. unzip the file in your work directory in R  
 3. put the file run_analysis.R in your work directory  
