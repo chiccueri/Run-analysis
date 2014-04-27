@@ -12,9 +12,9 @@ The other 66 columns contain mean and standard deviation values of the measureme
 
 The 180 rows contain the average value for each of the 30 subjects and each of the 6 activities (so 30*6=180).
 The average values were obtained after having merged training (7352 rows) and test (2947 rows) measurements in raw data. 
-The process from raw to tidy data set was the follow:   
+The process from raw to tidy data sets was the follow:   
 
-1. downloaded and read raw data from the follow files:  
+1. downloaded and read raw data from the follow original files:  
    *features.txt* -> data.frame (561*2) with id and name of each feature measured  
    *activity_labels.txt* -> data.frame (6*2) with id and label of each activity
    *subject_train.txt* -> data.frame (7352*1) with the id of the subject for each of the 7352 measurements in training  
